@@ -1,0 +1,9 @@
+*.out
+*.o
+*.exe
+a.out
+input.txt
+output.txt
+error.txt
+temp.cpp
+.vscode/
