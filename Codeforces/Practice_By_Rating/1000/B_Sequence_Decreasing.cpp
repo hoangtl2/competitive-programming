@@ -6,33 +6,30 @@ using namespace std;
 #define ull unsigned long long
 #define ush unsigned short
 #define el '\n'
-
-void solve() 
-{
-    int n; 
+void solve() {
+    int n;
     cin >> n;
-    vector<int> a(n);
+    int min_val = 2e9;
     for (int i = 0; i < n; i++) {
-        cin >> a[i];
+        int x;
+        cin >> x;
+        min_val = min(min_val, x);
     }
-    vector<int> tails;
-    for (int i = 0; i < n; i++) {
-        int val = -a[i]; 
-        auto it = upper_bound(tails.begin(), tails.end(), val);
-        
-        if (it == tails.end()) {
-            tails.push_back(val);
-        } else {
-            *it = val;
-        }
+    
+    if (min_val <= n - 1) {
+        cout << n << el;
+    } else {
+        cout << 0 << el;
     }
-    cout << tails.size() << el;
 }
+
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
-    int t; cin >> t;
-    while(t--){
+    
+    int t;
+    cin >> t;
+    while (t--) {
         solve();
     }
     return 0;
