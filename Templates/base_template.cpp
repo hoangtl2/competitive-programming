@@ -13,6 +13,8 @@ using namespace std;
 #define ull unsigned long long
 #define ush unsigned short
 #define el '\n'
+#define all(x) (x).begin(), (x).end()
+#define sz(x) (int)(x).size()
 
 void solve() 
 {
