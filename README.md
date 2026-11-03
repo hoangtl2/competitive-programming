@@ -1,11 +1,10 @@
-# 🚀 Competitive Programming & DSA Journey
+# 🚀 DSA Journey
 
 [![Language](https://img.shields.io/badge/Language-C%2B%2B17%2F20-blue.svg)](https://en.cppreference.com/)
 [![LeetCode](https://img.shields.io/badge/LeetCode-Daily%20%26%20Topics-FFA116?logo=leetcode&logoColor=white)](https://leetcode.com/)
 [![Codeforces](https://img.shields.io/badge/Codeforces-Practice%20%26%20Contests-1F8ACB?logo=codeforces&logoColor=white)](https://codeforces.com/)
 [![AtCoder](https://img.shields.io/badge/AtCoder-ABC%20%26%20DP-black)](https://atcoder.jp/)
 
-Repository lưu trữ toàn bộ code giải thuật, bài tập luyện tập hàng ngày và template thi đấu lập trình (Competitive Programming / Phỏng vấn thuật toán).
 
 ---
 
