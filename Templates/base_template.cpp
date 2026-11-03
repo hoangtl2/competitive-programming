@@ -53,7 +53,7 @@ static const auto fast_io = []() {
 
 class Solution {
 public:
-    int minMoves(vector<int>& nums) {
+    int minMoves2(vector<int>& nums) {
         
     }
 };
