@@ -53,7 +53,7 @@ static const auto fast_io = []() {
 
 class Solution {
 public:
-    vector<int> assignTasks(vector<int>& servers, vector<int>& tasks) {
+     int minChanges(string s) {
         
     }
 };
