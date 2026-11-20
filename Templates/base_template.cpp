@@ -53,7 +53,7 @@ static const auto fast_io = []() {
 
 class Solution {
 public:
-     int minChanges(string s) {
+     int maxSelectedElements(vector<int>& nums) {
         
     }
 };
