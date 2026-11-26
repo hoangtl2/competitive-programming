@@ -53,7 +53,7 @@ static const auto fast_io = []() {
 
 class Solution {
 public:
-     int maxLength(vector<int>& nums) {
+    bool canAliceWin(int n) {
         
     }
 };
